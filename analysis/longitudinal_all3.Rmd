@@ -7670,5 +7670,8 @@ the in-memory analytic data when knitted, or resolves the data path when run
 standalone.
 
 ```{r revision-save-outputs, eval=TRUE, message=FALSE, warning=FALSE}
-source(file.path("R", "generate_revision_outputs.R"), local = TRUE)
+# locate the generator whether knitting from repo root or from analysis/
+.gen <- c("analysis/R/generate_revision_outputs.R", "R/generate_revision_outputs.R")
+.gen <- .gen[file.exists(.gen)][1]
+source(.gen, local = TRUE)
 ```

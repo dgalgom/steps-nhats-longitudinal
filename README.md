@@ -72,7 +72,7 @@ DATA_PATH=/path/to/df.csv Rscript run_all.R         # uses the real data
 figure and table to `outputs/`):
 
 ```r
-rmarkdown::render("analysis/longitudinal_all3.Rmd")
+rmarkdown::render("analysis/longitudinal_all3.Rmd", knit_root_dir = normalizePath("."))  # run from repo root
 ```
 
 The Rmd loads cached model objects from `outputs/*.rds` if present; otherwise the
