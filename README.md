@@ -27,7 +27,7 @@ steps-nhats-longitudinal/
 │       ├── generate_revision_outputs.R   # Table 2, Figure 2, Supp S1–S7
 │       └── patch_rmd_portable.py         # one-off path-portability patch (record)
 ├── data/
-│   ├── raw/                      # PUT df.csv HERE (gitignored; see raw/README.md)
+│   ├── raw/                      # analysis dataset (no public access)
 │   └── synthetic/                # tiny synthetic sample so code runs w/o real data
 ├── outputs/
 │   ├── figures/                  # generated figures (.png/.pdf)
