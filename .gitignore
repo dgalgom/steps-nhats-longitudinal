@@ -1,8 +1,9 @@
 # ---- Restricted / large data (NEVER commit) ----
 data/raw/*
 !data/raw/README.md
+# small synthetic sample IS committed (exception below); all other CSVs ignored
 *.csv
-!data/synthetic/df_synthetic.csv        # small synthetic sample is OK to commit
+!data/synthetic/df_synthetic.csv
 df.csv
 
 # ---- Large cached model objects (regenerate by fitting) ----
