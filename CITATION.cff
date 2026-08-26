@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript below."
+title: "Multidimensional Physical Activity Decline in the Oldest-Old (NHATS): analysis code"
+authors:
+  - family-names: del Pozo-Cruz
+    given-names: Jesús
+  - family-names: Álvarez-Barbosa
+    given-names: Francisco
+  - family-names: Gallardo-Gómez
+    given-names: Daniel
+  - family-names: del Pozo Cruz
+    given-names: Borja
+  - family-names: Reguera-Rodríguez
+    given-names: Manuel
+  - family-names: Alfonso-Rosa
+    given-names: Rosa M.
+preferred-citation:
+  type: article
+  title: "Daily Steps and Multidimensional Physical Activity Decline in the Oldest-Old: A 4-Year Longitudinal Analysis"
+  journal: "Journal of Sport and Health Science"
+  year: 2026
+  notes: "Manuscript ID JSHS-2026-1054 (under revision)."
+license: MIT

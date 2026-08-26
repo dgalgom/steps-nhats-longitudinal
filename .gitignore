@@ -1,0 +1,28 @@
+# ---- Restricted / large data (NEVER commit) ----
+data/raw/*
+!data/raw/README.md
+*.csv
+!data/synthetic/df_synthetic.csv        # small synthetic sample is OK to commit
+df.csv
+
+# ---- Large cached model objects (regenerate by fitting) ----
+outputs/models/*.rds
+*.rds
+
+# ---- Rendered report (large, regenerated on knit) ----
+*.html
+analysis/*_cache/
+analysis/*_files/
+*_cache/
+*_files/
+
+# ---- R / RStudio ----
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
